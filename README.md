@@ -1,17 +1,18 @@
-# Apagador
+## Apagador
 
-Script criado para praticar Git e Github.
+Você tem uma pasta com varios arquivos, e alguns não devem estar lá. O que fazer? Simples, apagar não? Essa seria a
+solução caso você tenha poucos arquivos na pasta, mas caso contrario teria de selecionar um a um e apaga-los. O script **Apagador** faz isso pra você, excluindo apenas os arquivos que você não quer, especifique apenas o path e o tipo de arquivo.
+
+**Requisitos:** 
+
+* Python 3
+* Conhecer o path do diretorio em que deseja apagar os arquivos.
 
 Exemplo:
 
-```
-$ python3 main.py [diretorio][.extensao]
-```
+~~~
+$ python3 main.py /path/pasta .mp3
+~~~
 
-**Senario:** 
 
-Você tem uma pasta com varios arquivos, e alguns você não quer que estejam
-misturados lá. Seria chato ir selecionando um a um e apagando. Então, o script lista todos os arquivos do tipo especificado no paramentro e os apaga, todos os arquivos indesejados seram apagados
-apenas especificando a extensão.
-
-**Atenção:** use com cuidado para que seus arquivos importantes não venham a ser apagados junto com os indesejados.
+**Atenção:** Script criado para praticar Git e Github, use com cuidado para que seus arquivos importantes não venham a ser apagados junto com os indesejados.
